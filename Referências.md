@@ -4,6 +4,8 @@ https://www.youtube.com/watch?v=5vbMFKKzwWw
 
 https://www.youtube.com/watch?v=Mdg1D-Kdmrw 
 
+https://www.youtube.com/watch?v=FXlixv8Ieoc
+
  Inserir Registros no MySQL 
 
 https://www.youtube.com/watch?v=o-xgjWPmV7w 
@@ -15,4 +17,5 @@ https://www.youtube.com/shorts/ZD2ZUoJPrCA
 https://www.youtube.com/watch?v=KXMUdbZjZTI 
 
 Comandos MySQL
+
 https://www.youtube.com/watch?v=Ghd3U2OdlpY
