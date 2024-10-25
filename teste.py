@@ -5,10 +5,10 @@ from mysql.connector import Error
 def criar_conexao():
     try:
         conn = mysql.connector.connect(
-            host='localhost',
-            database='temperaturas_db',  # Nome do banco de dados
-            user='root',  # Nome de usuário do MySQL
-            password=''  # Senha do MySQL
+            host='sql3.freesqldatabase.com',
+            database='sql3740785',  # Nome do banco de dados
+            user='sql3740785',  # Nome de usuário do MySQL
+            password='uhUCEplsH1'  # Senha do MySQL
         )
         if conn.is_connected():
             print("Conexão bem-sucedida ao MySQL!")
