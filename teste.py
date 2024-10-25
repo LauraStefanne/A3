@@ -48,7 +48,6 @@ def mostrar_alertas(cursor):
         print("Alertas de Temperatura Alta:")
         for alerta in alertas:
             print("Temperatura Registrada: {} °C | Data: {}".format(alerta[1], alerta[0]))
-            print("Alto Risco de Incêndio!")
 
 # média do mês e do ano escolhido pelo usuário
 def mostrar_media_mensal_anual(cursor):
@@ -131,15 +130,15 @@ def main():
     cursor = conn.cursor()
 
     while True:
-        print("Menu:")
-        print("[ 1 ] Inserir nova temperatura")
-        print("[ 2 ] Mostrar histórico de temperaturas")
-        print("[ 3 ] Mostrar alertas de temperatura alta")
-        print("[ 4 ] Mostrar média de temperaturas de um mês específico e do ano")
-        print("[ 5 ] Mostrar quantidade de alertas de temperatura alta em um mês específico")
-        print("[ 6 ] Mostrar quantidade de alertas de temperatura alta em um ano específico")
-        print("[ 7 ] Sair")
-        escolha = input("Escolha uma opção: ")
+        print('''Menu:
+        [ 1 ] Inserir nova temperatura
+        [ 2 ] Mostrar histórico de temperaturas
+        [ 3 ] Mostrar alertas de temperatura alta
+        [ 4 ] Mostrar média de temperaturas de um mês específico e do ano
+        [ 5 ] Mostrar quantidade de alertas de temperatura alta em um mês específico
+        [ 6 ] Mostrar quantidade de alertas de temperatura alta em um ano específico
+        [ 7 ] Sair''')
+        escolha = input("Escolha uma opção:")
 
         if escolha == "1":
             inserir_dados_usuario(cursor)
